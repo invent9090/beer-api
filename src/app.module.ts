@@ -29,11 +29,11 @@ import { SellerCategoryModule } from './seller-category/seller-category.module';
   imports: [
     TypeOrmModule.forRoot({
       type: 'postgres',
-      host: 'ec2-23-21-109-177.compute-1.amazonaws.com',
+      host: 'ec2-174-129-226-234.compute-1.amazonaws.com',
       port: 5432,
-      username: 'jptrcrexnizjpm',
-      password: '15e450339ae29f830c3c802cafc640155b16da1c08a4bb1526c5c97635fc29e3',
-      database: 'd6i24j65bsilek',
+      username: 'ivgxyzolyvfqwp',
+      password: 'acd96e06b12eaccf8cd7f8cbbe6af48be4ccb816455d876b2bb7d9d835a85ed2',
+      database: 'd8hapkh69p852m',
       entities: [__dirname + '/**/*.entity{.ts,.js}'],
       synchronize: true,
       cache: {
